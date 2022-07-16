@@ -1,0 +1,151 @@
+.main-container{
+  height: 100vh;
+  font-family: "Mulish";
+  box-sizing: border-box;
+}
+
+
+
+.section-one{
+  background-image: linear-gradient(to bottom,#6D6BDE,#5553B7)
+}
+
+.logo{
+  width: 211px;
+  height: 78px;
+}
+
+.main-heading{
+  font-weight:700;
+  font-size:24px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.main-heading-para{
+  font-weight:600;
+  font-size:18px;
+  line-height: 28.4px;
+  margin-top: 30px;
+  padding: 8px 0px;
+}
+
+
+
+.section-two{
+  color: #3C4B50 ;
+
+}
+
+.anchor-ele{
+  color: #5553B7;
+}
+
+.support-para{
+  font-weight:500;
+  font-size:14px;
+  line-height: 10px;
+  margin-left: 10px;
+}
+
+.flex-container{
+  display: flex;
+  gap: 53px;
+
+}
+
+
+.sub-section-1{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.unordered-list{
+
+
+}
+
+.list-item{
+  padding-left: 0px;
+  margin-left:0px;
+}
+
+.list-para{
+  font-weight:500;
+  font-size:16px;
+  line-height: 22px;
+}
+
+.input-container{
+  background-color: #F5F5FA;
+  padding: 16px;
+  border: 1px solid #CAD3E3;
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+}
+
+input{
+  width: 348px;
+  height: 43px;
+  border-radius: 5px;
+  border: 1px solid #CAD3E3;
+  padding: 8px;
+  color: #3C4B50;
+  font-size: 16px;
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+
+}
+
+button{
+  background-color: #5553B7;
+  border-radius: 4px;
+  padding: 8px 14px;
+  border: none;
+  width: 121px;
+ height: 40px;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+margin-top: 16px;
+outline: none;
+cursor: pointer;
+}
+
+
+
+.sub-section-2{
+  width: 100%;
+
+  background-image: linear-gradient(to bottom,rgba(109, 107, 222, 0.5),white);
+  border-radius: 16px;
+  display: flex;justify-content: center;
+  align-items: center;
+
+}
+
+.demo-img{
+
+}
+
+.response-msg {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+}
+
+.success{
+  color: #56BA90;
+}
+
+.failure{
+  color:#F70D1A;
+}
